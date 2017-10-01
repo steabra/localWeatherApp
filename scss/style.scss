@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	background: #33495F;
+	text-align: center;
+	color: #FFF;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	margin: 80px 0 30px;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+#temp-button {
+	background: #233242;
+	width: 150px;
+	height: 60px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border: solid 1px #FFF;
+	border-radius: 10px;
+	
+	p {
+		display: inline-block;
+		line-height: 60px;
+	}
+	
+	#weather-icon {
+		display: inline-block;
+  	line-height: 60px;
+	}
+	
+	&:hover {
+		background: #FFF;
+		color: #33495F;
+		cursor: pointer;
+	}
+}
